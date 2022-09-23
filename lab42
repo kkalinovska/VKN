@@ -1,7 +1,0 @@
-import math
-x=float(input("Введіть x"))
-y=float(input("Введіть y"))
-a=float(input("Введіть a"))
-
-z=(math.pow(x,3)+a)*(y-math.log(math.fabs(y))-math.sin(a))+x+math.pow(y,1/3)
-print("Z=",z)
