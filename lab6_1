@@ -1,0 +1,11 @@
+import math
+a=float(input('first'))
+b=float(input('second'))
+h=float(input('step'))
+x=a
+y=0.0
+for i in range(10):
+    y=7-x*math.pow(math.e,2*x-1)+math.sqrt(math.fabs(x))
+    print("%i x=%.1f  y=%.2f"%(i,x,y))
+    x=x+h
+    
