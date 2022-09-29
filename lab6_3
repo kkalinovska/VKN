@@ -1,0 +1,15 @@
+import math 
+a=float(input("Введіть a:"))
+b=float(input("Введіть b:"))
+h=float(input("Введіть h:"))
+x=a
+y=0.0
+spisok=[]
+while x<100:
+    y=7-x*math.pow(math.e,2*x-1)+math.sqrt(math.fabs(x))
+    spisok.append(y)
+    x=x+h
+from collections import Counter
+d=[k for k,v in Counter(spisok).items() if v>1]
+print(spisok)
+print(d)
