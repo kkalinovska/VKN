@@ -1,0 +1,9 @@
+s1=str(input("введіть рядок слів розділених пробілами"))
+s1=s1.split(" ")
+print(max(s1, key=len))
+print(min(s1, key=len))
+
+
+
+
+

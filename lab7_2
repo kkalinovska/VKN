@@ -1,0 +1,9 @@
+import random
+m=int(input("задайте перше число: "))
+n=int(input("задайте друге число: "))
+a="абвгґдеєжзиіїйклмнопрстуфхцчшщъюя"
+
+for i in range(m):
+    b=[random.choice(a) for _ in range(n)]
+    print(''.join(b), end=" ")
+    
